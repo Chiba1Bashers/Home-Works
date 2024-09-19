@@ -1,0 +1,38 @@
+table{
+    font-size: 14px;
+    background: #fea288;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+th{
+    font-weight: 500;
+    background-color: orangered;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+td{
+    color: #fff;
+    border-top: 1px solid #e8edff;
+    padding: 10px 15px;
+}
+
+tr:hover td{
+    background: #fed1c5;
+    color: black;
+}
+
+caption{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}

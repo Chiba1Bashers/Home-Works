@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./adaptive.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="./first_form.html"> First Form </a>
+        <a href="./second_form.html"> Second Form </a>
+        <a href="./frame.html"> Frame </a>
+        <a href="./adaptive.html"> Adaptive </a>
+      </nav>
+    </header>
+    <main>
+      <form action="" id="myForm">
+        <div>
+          <label for="name">Enter Your Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+          <label for="password"> Enter Password </label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <label for="сpassword"> Confirm Password </label>
+          <input type="password" name="сpassword" id="сpassword" />
+        </div>
+        <div class="date">
+          <label for="date" class="date__name"> Enter Your Birthday</label>
+          <input type="date" name="date" id="date" />
+        </div>
+        <label for="sex"> Choose Your Sex</label>
+        <div class="sex">
+          <input type="radio" id="male" name="sex" />
+          <label for="male" class="radio__label"> Male </label>
+          <input type="radio" id="fmale" name="sex" />
+          <label for="fmale" class="radio__label"> Female </label>
+        </div>
+        <div>
+          <label for="">Enter Your Age</label>
+          <input type="number" name="age" id="age" min="0" max="100" />
+        </div>
+        <div>
+          <label for="bio"> Discription </label>
+          <textarea name="bio" id="bio" cols="80" rows="10"></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

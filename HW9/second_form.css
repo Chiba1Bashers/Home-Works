@@ -1,0 +1,70 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+form{
+    color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgba(175, 175, 175, 0.3);
+    padding: 15px;
+    margin-top: 15px;
+    width: 500px;
+}
+#myForm{
+    user-select: none;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.pow, .bra{
+    display: block;
+    padding-left: 15px;
+}
+
+.brandF{
+    padding-left: 15px;
+}
+
+.title__power, .title__brand, .brandF{
+    font-size: 20px;
+}
+
+#product, #sort, #braFound{
+    background-color: rgba(113, 134, 109, 0.8);
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+#braFound{
+    border: 0;
+}
+
+input{
+    background-color: rgba(113, 134, 109, 0.8);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+}
+
+#submit{
+    background-color: rgb(113, 134, 109);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    background-color: rgb(154, 192, 146);
+}
+

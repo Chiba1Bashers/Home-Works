@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* 1 селлектор */
+*{
+  font-family: "Montserrat", sans-serif;
+}
+/* 2 селлектор */
+body{
+  margin: 0;
+  background-color: #312F30;
+}
+/* 3 селлектор */
+h1, h2, h3, h4{
+  color: #fff;
+}
+
+h1{
+  margin-top: 80px;
+  text-align: center;
+}
+/* .header{
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* 4 селлектор */
+.nav{
+  background-color: #1C1C1C;
+  padding: 20px 100px;
+  /* max-width: 1200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 5 селлектор */
+.nav a{
+  opacity: 0.7;
+  margin: 0 80px;  
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+/* 6 селлектор */
+a:hover{
+  opacity: 1;
+}
+
+.main__media{
+  margin: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+audio{
+  width: 400px;
+  padding-left: 750px;
+  margin-bottom: 60px;
+}
+/* 7 селлектор */
+audio::-webkit-media-controls-panel{
+  background-color: #1C1C1C;
+}
+
+audio::-webkit-media-controls-enclosure {
+    background-color: #1C1C1C;
+}
+
+audio::-webkit-media-controls-current-time-display{
+  color: #f1f3f4;
+  font-size: 16px;
+}
+
+audio::-webkit-media-controls-time-remaining-display{
+  color: #f1f3f4;
+  font-size: 16px;
+  padding-right: 5px;
+}
+

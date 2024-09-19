@@ -1,0 +1,19 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgba(175, 175, 175, 0.3);
+    padding: 30px;
+    margin-top: 15px;
+}
+
+iframe{
+    width: 60vw;
+    height: 80vh;
+}

@@ -1,0 +1,41 @@
+.display__block{
+    display: block;
+    background-color: #f34a4a;
+    color: azure;
+    margin: 50px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 315px;
+}
+
+.display__inline{
+    display: inline;
+    background-color: #f34a4a;
+    color: azure;
+    margin: 50px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 315px;
+}
+
+.visibility__hidden{
+    background-color: #615049;
+    color: azure;
+    margin: 50px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    visibility: hidden;
+    height: 315px;
+    padding: 5px;
+}
+.visibility__visible {
+    background-color: #615049;
+    color: azure;
+    margin: 50px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    visibility: visible;
+    padding: 5px;
+}
+
+

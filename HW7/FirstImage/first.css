@@ -1,0 +1,25 @@
+.k{
+    margin-top: 120px;
+    height: 600px;
+    width: 25%;
+}
+
+.kub1, .kub2, .kub3, .kub4{
+    float: left;
+}
+
+.kub1{
+    background-color: red;
+}
+
+.kub2{
+    background-color: green;
+}
+
+.kub3{
+    background-color: blue;
+}
+
+.kub4{
+    background-color: black;
+}

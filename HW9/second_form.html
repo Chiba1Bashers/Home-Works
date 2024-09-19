@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Form</title>
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./second_form.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <a href="./first_form.html"> First Form </a>
+        <a href="./second_form.html"> Second Form </a>
+        <a href="./frame.html"> Frame </a>
+        <a href="./adaptive.html"> Adaptive </a>
+      </nav>
+    </header>
+    <main>
+      <form action="" id="myForm">
+        <div>
+          <select name="product" id="product">
+            <option value="">Phone</option>
+            <option value="">Laptop</option>
+            <option value="">Vacuum Cliner</option>
+            <option value="">Charge</option>
+          </select>
+        </div>
+        <div class="pow">
+          <label for="power" class="title__power">Power :</label>
+          <input type="checkbox" id="power1" name="power" />
+          <label for="power1">15w</label>
+          <input type="checkbox" id="power2" name="power" />
+          <label for="power2">25w</label>
+          <input type="checkbox" id="power3" name="power" />
+          <label for="power3">65w</label>
+          <input type="checkbox" id="power4" name="power" />
+          <label for="power4">100w</label>
+          <input type="checkbox" id="power5" name="power" />
+          <label for="power5">200w</label>
+        </div>
+        <div class="bra">
+          <label for="brand" class="title__brand">Brand :</label>
+          <input type="checkbox" id="brand1" name="brand" />
+          <label for="brand1">Samsung</label>
+          <input type="checkbox" id="brand2" name="brand" />
+          <label for="brand2">LG</label>
+          <input type="checkbox" id="brand3" name="brand" />
+          <label for="brand3">Asus</label>
+          <input type="checkbox" id="brand4" name="brand" />
+          <label for="brand4">Lenovo</label>
+        </div>
+        <div>
+          <select name="sort" id="sort">
+            <option value="">low price</option>
+            <option value="">high price</option>
+            <option value="">by rating</option>
+          </select>
+        </div>
+        <div>
+          <label for="found" class="brandF"> Brand Found : </label>
+          <input type="text" name="found" id="braFound" />
+        </div>
+        <div>
+          <input type="submit" value="Submit" id="submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 20vh);
+}
+
+.fir{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.sec{
+    background-color: red;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.thr{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.for{
+    background-color: blue;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.fif{
+    background-color: black;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.six{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

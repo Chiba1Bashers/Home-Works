@@ -1,0 +1,67 @@
+    .header{
+      color: red;
+      font-weight: 800;
+    }
+
+    h1{
+      color: blue;
+    }
+
+    h2{
+      color: blue;
+    }
+
+    h3{
+      color: blue;
+    }
+
+    h4{
+      color: blue;
+    }
+
+    h5{
+      color: blue;
+    }
+
+    h6{
+      color: blue;
+    }
+
+    p{
+      color: green;
+      font-size: 40px;
+    }
+
+    b{
+      color: black;
+    }
+
+    i{
+      color: black;
+    }
+
+    strong{
+      color: black;
+    }
+
+    q{
+      color: violet;
+    }
+
+    cite{
+      font-size: 24px;
+    }
+
+    abbr{
+      color: blue;
+    }
+
+    pre{
+      font-size: 30px;
+      font-weight: 800;
+    }
+
+    .footer{
+      color: brown;
+      font-size: 40px;
+    }

@@ -1,0 +1,173 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgba(175, 175, 175, 0.3);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#myForm{
+    user-select: none;
+}
+
+textarea{
+    resize: none;
+    margin-top: 10px;
+    background-color: rgba(175, 175, 175, 0.2);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.date__name{
+    margin-left: 35px;
+}
+
+#date{
+   width: 200px; 
+   text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.sex{
+    display: block;
+}
+
+#age{
+    width: 100px;
+}
+
+input{
+    background-color: rgba(113, 134, 109, 0.8);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 10px;
+    color: white;
+}
+
+#submit{
+    background-color: rgb(113, 134, 109);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    background-color: rgb(154, 192, 146);
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .header{
+        padding: 15px 0;
+    }
+
+    .nav a{
+        font-size: 10px;
+        margin: 0 10px;
+        font-weight: 700;
+    }
+
+    body{
+        background-position:center ;
+        font-size: 12px;
+    }
+
+    .date__name{
+        margin: 0;
+    }
+
+    textarea{
+        width: 200px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .header{
+        padding: 20px 0;
+    }
+
+    .nav a{
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    body{
+        background-position:center ;
+        font-size: 12px;
+    }
+
+    .date__name{
+        margin: 0;
+    }
+
+    textarea{
+        width: 300px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header{
+        padding: 20px 0;
+    }
+
+    .nav a{
+        font-size: 18px;
+        margin: 0 20px;
+    }
+
+    body{
+        background-position:center ;
+        font-size: 16px;
+    }
+
+    .date__name{
+        margin: 0;
+    }
+
+    textarea{
+        width: 400px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1440px) {
+    .header{
+        padding: 20px 0;
+    }
+
+    .nav a{
+        font-size: 20px;
+        margin: 0 40px;
+    }
+
+    body{
+        background-position:center ;
+        font-size: 16px;
+    }
+
+    .date__name{
+        margin: 0;
+    }
+
+    textarea{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+    
+}

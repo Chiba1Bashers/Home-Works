@@ -1,0 +1,71 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    color: white;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: rgba(175, 175, 175, 0.3);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+#myForm{
+    user-select: none;
+}
+
+textarea{
+    resize: none;
+    margin-top: 10px;
+    background-color: rgba(175, 175, 175, 0.2);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.date__name{
+    margin-left: 35px;
+}
+
+#date{
+   width: 200px; 
+   text-align: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.sex{
+    display: block;
+}
+
+#age{
+    width: 100px;
+}
+
+input{
+    background-color: rgba(113, 134, 109, 0.8);
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 10px;
+    color: white;
+}
+
+#submit{
+    background-color: rgb(113, 134, 109);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit:hover{
+    background-color: rgb(154, 192, 146);
+}
+
+
+

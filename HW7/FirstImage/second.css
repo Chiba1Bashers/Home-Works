@@ -1,0 +1,27 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+.k{
+    height: 600px;
+    width: 25%;
+}
+
+.kub1{
+    background-color: red;
+}
+
+.kub2{
+    background-color: green;
+}
+
+.kub3{
+    background-color: blue;
+}
+
+.kub4{
+    background-color: black;
+}

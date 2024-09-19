@@ -1,0 +1,50 @@
+table{
+    font-size: 14px;
+    background: #fea288;
+    max-width: 70%;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+th{
+    font-weight: 500;
+    background-color: orangered;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+td{
+    text-align: center;
+    color: #fff;
+    border-top: 1px solid #e8edff;
+    padding: 10px 15px;
+}
+
+td:hover{
+    background: #fed1c5;
+}
+
+caption{
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 280px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.music img{
+    height: 200px;
+    width: 200px;
+}
