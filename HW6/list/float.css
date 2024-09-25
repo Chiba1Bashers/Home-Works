@@ -12,18 +12,18 @@ body{
 
 .block__left{
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 130px;
+    box-sizing: border-box;
     color: azure;
     font-size: 24px;
 }
 
 .block__right{
     float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 130px;
+    box-sizing: border-box;
     color: azure;
     font-size: 24px;
 }
